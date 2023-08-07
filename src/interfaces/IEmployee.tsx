@@ -1,4 +1,4 @@
-export interface EmployeeType {
+export interface IEmployeeType {
     name: string;
     email: string;
     phoneNumber: number;
@@ -6,7 +6,7 @@ export interface EmployeeType {
     manager: string;
     orgUnit: string;
     mainText: string;
-    socialType: SocialType;
+    socialType: ISocialType;
     imagePortraitUrl: string;
     imageWallOfLeetUrl: string;
     highlighter: boolean;
@@ -16,7 +16,7 @@ export interface EmployeeType {
     area: string;
 }
 
-export interface SocialType {
+export interface ISocialType {
     github?: string;
     twitter?: string;
     stackoverflow?: string;
